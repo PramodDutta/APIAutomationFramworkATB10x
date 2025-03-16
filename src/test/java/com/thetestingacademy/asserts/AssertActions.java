@@ -31,6 +31,10 @@ public class AssertActions {
         // AssertJ
         assertThat(keyExpect).isNotNull();
     }
+    public void verifyStringKeyNotNull(String keyExpect){
+        // AssertJ
+        assertThat(keyExpect).isNotNull();
+    }
 
 
 

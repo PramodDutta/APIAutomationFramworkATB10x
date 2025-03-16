@@ -21,7 +21,7 @@ public class TestCreateBooking extends BaseTest {
     @TmsLink("https://bugz.atlassian.net/browse/TS-1")
     @Owner("Promode")
     @Description("TC#INT1 - Step 1. Verify that the Booking can be Created")
-    public void testCreateBooking() {
+    public void testCreateBookingPOST() {
 
         requestSpecification.basePath(APIConstants.CREATE_UPDATE_BOOKING_URL);
         response = RestAssured.given(requestSpecification)
